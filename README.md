@@ -18,7 +18,7 @@ The name of the packge to install to get `pip` on the system. For older systems 
 
     pip_executable: pip3
 
-The role will try to autodetect the pip executable based on the `pip_package` (e.g. `pip` for Python 2 and `pip3` for Python 3). You can also override this explicitly, e.g. `pip_executable: pip3.6`.
+The role will try to autodetect the pip executable. You can also override this explicitly, e.g. `pip_executable: pip3.6`.
 
     pip_install_packages: []
 
